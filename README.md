@@ -40,3 +40,4 @@ Spring Boot 기반의 간단한 User CRUD REST APi 예제입니다.
 {
   "name": "Alice"
 }
+![POST users](screenshots/post-user.png)
