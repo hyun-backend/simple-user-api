@@ -22,3 +22,21 @@ Spring Boot 기반의 간단한 User CRUD REST APi 예제입니다.
 ## How to Run
 1. Run DemoApplication
 2. Access http://localhost:8080
+
+---
+## Example Request / Response (Postman)
+
+### 1. GET /users (no users)
+초기 상태에서 사용자 목록 조회
+
+![GET users - empty](screenshots/get-none.png)
+
+---
+### 2. POST /users
+새 사용자 생성 요청
+
+**Request Body**
+'''json
+{
+  "name": "Alice"
+}
