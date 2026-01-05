@@ -73,6 +73,7 @@ Spring Boot 기반의 간단한 User CRUD REST API 예제입니다.
 
 ---
 ### 1. Read H2-DB
--H2 DB 회원 조회 화면
+H2 DB 회원 조회 화면
+
 ![H2 DB MEMBERS](screenshots/read-h2db.png)
 
