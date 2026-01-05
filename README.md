@@ -57,5 +57,8 @@ Spring Boot 기반의 간단한 User CRUD REST APi 예제입니다.
 ![MVC Main Page](screenshots/user-main.png)
 
 ### 2. API Test Screenshots
-![MVC User Post](screenshots/post-user-mvc.png)
+![MVC Post user](screenshots/post-user-mvc.png)
+
+### 3. API Test Screenshots
+![MVC Get user](screenshots/get-user.png)
 
