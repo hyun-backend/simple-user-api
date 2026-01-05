@@ -102,3 +102,9 @@ H2 DB 업데이트 후 읽기
 ![H2 DB MEMBER AFTER UPDATE](screenshots/h2db-after-update.png)
 
 ---
+### 6. Update Server
+업데이트 후 8080포트 서버 사용자명
+
+![SERVER NAME UPDATE](screenshots/server-after-update.png)
+
+---
