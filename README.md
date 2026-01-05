@@ -77,3 +77,9 @@ H2 DB 회원 조회 화면
 
 ![H2 DB MEMBERS](screenshots/read-h2db.png)
 
+---
+### 2. Update H2-DB
+H2 DB 업데이트 쿼리 작성
+
+![H2 DB UPDATE QUERY](screenshots/update-h2db.png)
+
