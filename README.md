@@ -48,7 +48,7 @@ Spring Boot 기반의 간단한 User CRUD REST APi 예제입니다.
 ![GET users after post](screenshots/get-after-post.png)
 
 
-## Features
+## Added Features
 - MVC 기반 회원 등록 / 조회 화면
 - Thymeleaf 템플릿 렌더링
 - In-Memory Repository 구현
@@ -60,9 +60,9 @@ Spring Boot 기반의 간단한 User CRUD REST APi 예제입니다.
 
 ### 2. Create User(MVC) 
 - 회원 등록 화면(MVC)
-![MVC Get user](screenshots/get-user.png)
+![MVC Get user](screenshots/post-user-mvc.png)
 
 ### 3. User List(After Create)
 -회원 등록 후 목록 조회
-![User List](screenshots/post-user-mvc.png)
+![User List](screenshots/get-user.png)
 
