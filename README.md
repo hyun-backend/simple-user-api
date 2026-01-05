@@ -1,5 +1,6 @@
 # Simple User API
 Spring Boot 기반의 간단한 User CRUD REST API 예제입니다.
+이 프로젝트는 처음에 REST API로 구현되었고, 이후 Thymeleaf를 사용한 MVC 페이지로 확장되었습니다.
 
 ## Tech Stack
 - Java
