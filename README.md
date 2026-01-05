@@ -62,3 +62,7 @@ Spring Boot 기반의 간단한 User CRUD REST APi 예제입니다.
 - 회원 등록 화면(MVC)
 ![MVC Get user](screenshots/get-user.png)
 
+### 3. User List(After Create)
+-회원 등록 후 목록 조회
+![User List](screenshots/post-user-mvc.png)
+
