@@ -83,3 +83,22 @@ H2 DB 업데이트 쿼리 작성
 
 ![H2 DB UPDATE QUERY](screenshots/update-h2db.png)
 
+---
+### 3. Update Success
+H2 DB 업데이트 성공
+
+![H2 DB UPDATE SUCCESS](screenshots/update-h2db-success.png)
+
+---
+### 4. Read after Update
+H2 DB 업데이트 후 읽기
+
+![H2 DB READ AFTER UPDATE](screenshots/read-h2db-after-update.png)
+
+---
+### 5. Update Member
+업데이트 후 H2 DB 사용자명
+
+![H2 DB MEMBER AFTER UPDATE](screenshots/h2db-after-update.png)
+
+---
