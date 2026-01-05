@@ -54,5 +54,5 @@ Spring Boot 기반의 간단한 User CRUD REST APi 예제입니다.
 - In-Memory Repository 구현
 
 ### API Test Screenshots
-![POST user](screenshots/user-main.png)
+![MVC Main Page](screenshots/user-main.png)
 
