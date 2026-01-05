@@ -24,7 +24,7 @@ Spring Boot 기반의 간단한 User CRUD REST API 예제입니다.
 2. Access http://localhost:8080
 
 ---
-## Example Request / Response (Postman)
+## REST API Example Request / Response (Postman)
 
 ### 1. GET /users (no users)
 초기 상태에서 사용자 목록 조회
@@ -44,7 +44,7 @@ Spring Boot 기반의 간단한 User CRUD REST API 예제입니다.
 ![GET users after post](screenshots/get-after-post.png)
 
 
-## Added Features(w.Thymeleaf)
+## MVC Pages (w.Thymeleaf)
 - MVC 기반 회원 등록 / 조회 화면
 - Thymeleaf 템플릿 렌더링
 - In-Memory Repository 구현
