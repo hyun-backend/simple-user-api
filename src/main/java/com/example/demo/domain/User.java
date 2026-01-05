@@ -28,5 +28,9 @@ package com.example.demo.domain;
         public void changeName(String newName) {
             this.name = newName;
         }
+
+        public void setName(String name) {
+            this.name = name;
+        }
     }
 

@@ -5,13 +5,15 @@ import com.example.demo.service.UserService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.lang.reflect.Member;
 import java.util.List;
 
 @RestController
 @RequestMapping("/users")
 public class UserRestController {
 
-    public record UserResponse (long id, String name){}
+    public record UserResponse(long id, String name) {
+    }
 
 
     private final UserService userService;
@@ -30,7 +32,7 @@ public class UserRestController {
     public ResponseEntity<User> find(@PathVariable long id) {
         User user = userService.find(id);
         if (user == null) return ResponseEntity.notFound().build();
-        return  ResponseEntity.ok(user);
+        return ResponseEntity.ok(user);
     }
 
     @GetMapping
@@ -48,7 +50,13 @@ public class UserRestController {
         return ResponseEntity.ok(user);
     }
 
-    public record CreateUserRequest(String name) {}
-    public record ChangeNameRequest(String name){}
+    public record CreateUserRequest(String name) {
+    }
 
-}
+    public record ChangeNameRequest(String name) {
+    }
+
+
+
+    }
+
