@@ -49,6 +49,6 @@ Spring Boot 기반의 간단한 User CRUD REST APi 예제입니다.
 
 
 ## Features
--MVC 기반 회원 등록 / 조회 화면
--Thymeleaf 템플릿 렌더링
--In-Memory Repository 구현
+- MVC 기반 회원 등록 / 조회 화면
+- Thymeleaf 템플릿 렌더링
+- In-Memory Repository 구현
