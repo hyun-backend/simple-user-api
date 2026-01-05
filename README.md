@@ -36,10 +36,6 @@ Spring Boot 기반의 간단한 User CRUD REST API 예제입니다.
 새 사용자 생성 요청
 
 **Request Body**
-'''json
-{
-  "name": "Alice"
-}
 ![POST users](screenshots/post-user.png)
 
 ---
