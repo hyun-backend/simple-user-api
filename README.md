@@ -68,5 +68,11 @@ Spring Boot 기반의 간단한 User CRUD REST API 예제입니다.
 ![User List](screenshots/get-user.png)
 
 ---
+## H2 DB 입력/조회/변경
+- Spring Boot + JDBC + H2 Database를 사용해 사용자 등록(Create), 조회(Read), 수정(Update) 기능을 구현했습니다.
 
+---
+### 1. Read H2-DB
+-H2 DB 회원 조회 화면
+![H2 DB MEMBERS] Get(screenshots/read-h2db.png)
 
