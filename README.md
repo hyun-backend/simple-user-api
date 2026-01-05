@@ -1,5 +1,5 @@
 # Simple User API
-Spring Boot 기반의 간단한 User CRUD REST APi 예제입니다.
+Spring Boot 기반의 간단한 User CRUD REST API 예제입니다.
 
 ## Tech Stack
 - Java
@@ -36,7 +36,7 @@ Spring Boot 기반의 간단한 User CRUD REST APi 예제입니다.
 새 사용자 생성 요청
 
 **Request Body**
-'''json
+```json
 {
   "name": "Alice"
 }
@@ -63,6 +63,6 @@ Spring Boot 기반의 간단한 User CRUD REST APi 예제입니다.
 ![MVC Get user](screenshots/post-user-mvc.png)
 
 ### 3. User List(After Create)
--회원 등록 후 목록 조회
+- 회원 등록 후 목록 조회
 ![User List](screenshots/get-user.png)
 
