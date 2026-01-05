@@ -53,6 +53,9 @@ Spring Boot 기반의 간단한 User CRUD REST APi 예제입니다.
 - Thymeleaf 템플릿 렌더링
 - In-Memory Repository 구현
 
-### API Test Screenshots
+### 1. API Test Screenshots
 ![MVC Main Page](screenshots/user-main.png)
+
+### 2. API Test Screenshots
+![MVC User Post](screenshots/post-user-mvc.png)
 
