@@ -108,3 +108,6 @@ H2 DB 업데이트 후 읽기
 ![SERVER NAME UPDATE](screenshots/server-after-update.png)
 
 ---
+
+## 전역 예외 처리
+Spring Boot의 '@ControllerAdvice'를 활용해 전역 예외 처리를 적용했습니다.
