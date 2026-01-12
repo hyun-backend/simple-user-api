@@ -22,7 +22,6 @@ public class HomeController {
 
     @GetMapping("/")
     public String home() {
-        System.out.println("### HI");
         return "home";
     }
 
@@ -33,10 +32,11 @@ public class HomeController {
 
     @PostMapping("/members/new")
     public String create(MemberForm form) {
+        System.out.println("### name = " + form.getName());
         userService.create(form.getName());
         return "redirect:/";
-
     }
+
 
     @GetMapping("/members")
     public String list(Model model) {
@@ -46,3 +46,4 @@ public class HomeController {
     }
 
 }
+
