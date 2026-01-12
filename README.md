@@ -117,6 +117,9 @@ Spring Boot의 '@ControllerAdvice'를 활용해 전역 예외 처리를 적용�
 ## 컨트롤러 테스트
 MocMvc 기반 Controller 테스트 통과, 예외 처리 로직 테스트를 검증 완료했습니다.
 
+-존재하지 않는 사용자 조회 시
+전역 예외 처리(@ControllerAdvice)가 정상적으로 동작하는지 검증하는 테스트를 작성했습니다.
+
 ![TESTCASE UPDATE](screenshots/test-success.png)
 
 ---
