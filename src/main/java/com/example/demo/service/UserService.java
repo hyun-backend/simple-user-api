@@ -16,9 +16,7 @@ public class UserService {
     }
 
     public User create(String name) {
-        Long id = userRepository.nextId();
-        User user = new User(id, name);
-        return userRepository.save(user);
+        return userRepository.save(new User(0L, name));
     }
 
     public User find(Long id) {

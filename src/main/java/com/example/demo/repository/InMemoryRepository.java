@@ -8,16 +8,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@Repository
+
 public class InMemoryRepository implements UserRepository {
 
     private final Map<Long, User> store = new HashMap<>();
     private long sequence = 1L;
-
-    @Override
-    public Long nextId() {
-        return sequence++;
-    }
 
     @Override
     public User save(User user) {
@@ -33,5 +28,12 @@ public class InMemoryRepository implements UserRepository {
     @Override
     public List<User> findAll() {
         return new ArrayList<>(store.values());
+    }
+
+    @Override
+    public List<User> findByName(String name) {
+        return store.values().stream()
+                .filter(user -> user.getName().equals(name))
+                .toList();
     }
 }
